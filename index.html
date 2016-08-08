@@ -225,10 +225,20 @@
         </div>
         <div class="flags">
             <img src="./img/flags/japan.png"><img src="./img/flags/Flag_of_the_Republic_of_China.svg"><img src="./img/flags/china.png"><img src="./img/flags/south-korea.png"><img src="./img/flags/Flag_of_the_Philippines.svg"><img src="./img/flags/indonesia.png"><img src="./img/flags/Flag_of_Vietnam.svg"><img src="./img/flags/Flag_of_Malaysia.svg"><img src="./img/flags/thailand.png"><img src="./img/flags/Flag_of_Hong_Kong.svg"><img src="./img/flags/Flag_of_Laos.svg"><img src="./img/flags/Flag_of_Myanmar.svg"><img src="./img/flags/Flag_of_Singapore.svg"><img src="./img/flags/Flag_of_Cambodia.svg"></div>
-        <iframe class="video" frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="okplayer" src="http://youtube.com/embed/NWy4x2yYc4E?autoplay=1&loop=1&hd=1&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&rel=0&playlist=NWy4x2yYc4E"></iframe>
+        <iframe class="video" frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="okplayer"></iframe>
         <div class="tag"><img src="./img/arrow.svg"> DOUBLE HAPPINESS COMING SOON</div>
         <div class="logo"><img src="./img/88RISING-ARROW-LOGO.svg"></div>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+var videos = ["h0MWCxgFW9w","bLcI8eS17Is","m3GDx3XCMls","RmZrIT_183U","-KMBELyZ_sM"]
+
+var movie = videos[Math.floor(Math.random()*videos.length)];
+
+$('#okplayer').attr("src", "http://youtube.com/embed/" + movie + "?autoplay=1&loop=1&hd=1&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&rel=0");
+
+</script>
 
 </html>
