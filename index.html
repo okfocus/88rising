@@ -143,13 +143,12 @@
     margin:0
   }
   
-  /* mailchimp */
+    /* mailchimp */
   
   #mc_embed_signup {
-    background:white;
     float:left;
-    text-align: center;
     width:33vw;
+    text-transform: uppercase;
   }
   
   .mc_form {
@@ -162,36 +161,32 @@
   
   .mc_head {
     color:black;
-    padding:8px 0 2px;
-    text-align:center;
+    padding:8px;
+    text-align:left;
   }
   
   .mc_form .email {
     height:24px;
-    border:1px solid #b2b2b2;
-    border-radius:3px;
     padding:3px;
     margin:0;
     background:white;
     pointer-events: all;
-    width:calc(100% - 95px)
+    width:calc(100% - 95px);
+    border:1px solid;
   }
   
   .mc_form .button {
-    background:#b2b2b2;
+    background:#000;
     color:white;
     border:none;
     height:24px;
     padding:0;
     width:90px;
-    border-radius:3px;
-    font-family:helvetica, arial, sans-serif;
     font-size:12px;
     font-weight:bold;
     pointer-events: all;
     cursor:pointer
   }
-  
   @media screen and (max-width: 650px) {
     .wrapper {
       flex-flow: row wrap;
@@ -271,7 +266,6 @@
     /* mailchimp mobile */
     
     #mc_embed_signup {
-      background:white;
       float:none;
       text-align: center;
       width:calc(100% - 60px);
