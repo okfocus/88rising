@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510080410886">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510081054463">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3763414829" ref="index"/>
+    <file name="index.css" crc="3831243642" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -40,7 +40,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="asia tour_poster_.png" crc="361702700" ref="index"/>
-    <file name="gang.jpg" crc="3775932593" seo="true" ref="index">
+    <file name="gang.jpg" crc="3917269391" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="rich2.svg" crc="3797180448" seo="true" ref="index">
@@ -55,9 +55,10 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="higher2_poster_.png" crc="159973313" ref="index"/>
-    <file name="88rising.png" crc="118787567" seo="true" ref="index">
+    <file name="88rising_new.svg" crc="383399925" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="88rising_new_poster_.png" crc="4285491719" ref="index"/>
   </folder>
-  <file name="index.html" crc="3786814566" mt="1510080354623" redirect="true"/>
+  <file name="index.html" crc="156162527" mt="1510081039744" redirect="true"/>
 </manifest>
