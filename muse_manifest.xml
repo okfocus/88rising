@@ -1,28 +1,16 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510081933495">
-  <folder name="tablet">
-    <folder name="css">
-      <file name="index.css" crc="3948741586" ref="tablet>index"/>
-    </folder>
-    <file name="index.html" crc="4027455947" mt="1510081759315" redirect="false"/>
-  </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="index.css" crc="279237556" ref="phone>index"/>
-    </folder>
-    <file name="index.html" crc="17803523" mt="1510081759669" redirect="false"/>
-  </folder>
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510082349366">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="164506256" ref="index"/>
+    <file name="index.css" crc="113190792" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:tablet>index"/>
-    <file name="museutils.js" crc="3803043152" ref="index:phone>index:tablet>index"/>
-    <file name="whatinput.js" crc="86476730" ref="index:phone>index:tablet>index"/>
-    <file name="museconfig.js" crc="4153641093" ref="index:phone>index:tablet>index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index:phone>index:tablet>index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="phone>index:tablet>index:index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
   </folder>
   <folder name="images">
     <file name="88.svg" crc="488475465" seo="true" ref="index">
@@ -72,6 +60,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="88rising_new_poster_.png" crc="33807495" ref="index"/>
+    <file name="home-favicon.ico" crc="214551056" ref="index"/>
   </folder>
-  <file name="index.html" crc="265332586" mt="1510081878001" redirect="true"/>
+  <file name="index.html" crc="3976359037" mt="1510082339759" redirect="true"/>
 </manifest>
