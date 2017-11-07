@@ -10,7 +10,7 @@
    // Redirect to phone/tablet as necessary
 (function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
 0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
-0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("tablet","","");
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("tablet","","../phone/index.html");
 
 // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -23,7 +23,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=465884931" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3865909691" id="pagesheet"/>
    </head>
  <body>
 
@@ -45,10 +45,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <img class="block" id="u8740_img" src="../images/88rising.png?crc=4167509692" alt="" width="299" height="39"/>
     </div>
     <div class="clearfix colelem" id="u8750"><!-- group -->
-     <a class="nonblock nontext clip_frame grpelem" id="u8699" href="http://www.youtube.com" target="_blank"><!-- svg --><img class="svg" id="u8700" src="../images/youtube2.svg?crc=115220904" width="94" height="43" alt="" data-mu-svgfallback="../images/youtube2_poster_.png?crc=260988738"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u8697" href="https://twitter.com/88rising"><!-- svg --><img class="svg" id="u8698" src="../images/twitter2.svg?crc=4046557632" width="30" height="30" alt="" data-mu-svgfallback="../images/twitter2_poster_.png?crc=4204106744"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u8695" href="https://www.facebook.com/88rising/"><!-- svg --><img class="svg" id="u8696" src="../images/fb2.svg?crc=4178017331" width="29" height="29" alt="" data-mu-svgfallback="../images/fb2_poster_.png?crc=254042616"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u8693" href="https://www.instagram.com/88rising/?hl=en"><!-- svg --><img class="svg" id="u8694" src="../images/ig2.svg?crc=4267439286" width="32" height="30" alt="" data-mu-svgfallback="../images/ig2_poster_.png?crc=3877984437"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u8699" href="http://www.youtube.com" target="_blank"><!-- svg --><img class="svg" id="u8700" src="../images/youtube2.svg?crc=115220904" width="94" height="43" alt="" data-mu-svgfallback="../images/youtube2_poster_.png?crc=69207330"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u8697" href="https://twitter.com/88rising"><!-- svg --><img class="svg" id="u8698" src="../images/twitter2.svg?crc=4046557632" width="30" height="30" alt="" data-mu-svgfallback="../images/twitter2_poster_.png?crc=84430277"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u8695" href="https://www.facebook.com/88rising/"><!-- svg --><img class="svg" id="u8696" src="../images/fb2.svg?crc=4178017331" width="29" height="29" alt="" data-mu-svgfallback="../images/fb2_poster_.png?crc=510445449"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u8693" href="https://www.instagram.com/88rising/?hl=en"><!-- svg --><img class="svg" id="u8694" src="../images/ig2.svg?crc=4267439286" width="32" height="30" alt="" data-mu-svgfallback="../images/ig2_poster_.png?crc=159622976"/></a>
     </div>
    </div>
    <div class="verticalspacer" data-offset-top="1670" data-content-above-spacer="1670" data-content-below-spacer="127"></div>

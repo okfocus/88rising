@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510075764380">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510075967430">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="4066261840" ref="index"/>
@@ -15,42 +15,56 @@
   <folder name="images">
     <file name="asia-tour.svg" crc="90378404" seo="true" ref="tablet>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="asia tour_poster_.png" crc="361702700" ref="tablet>index:index"/>
+    <file name="asia tour_poster_.png" crc="361702700" ref="tablet>index"/>
     <file name="gang436x334.jpg" crc="439912696" seo="true" ref="tablet>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="88rising.png" crc="4167509692" seo="true" ref="tablet>index:index">
+    <file name="88rising.png" crc="4167509692" seo="true" ref="tablet>index:index:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="youtube2.svg" crc="115220904" seo="true" ref="tablet>index:index">
+    <file name="youtube2.svg" crc="115220904" seo="true" ref="tablet>index:index:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="youtube2_poster_.png" crc="260988738" ref="tablet>index:index"/>
-    <file name="twitter2.svg" crc="4046557632" seo="true" ref="tablet>index:index">
+    <file name="youtube2_poster_.png" crc="69207330" ref="phone>index"/>
+    <file name="twitter2.svg" crc="4046557632" seo="true" ref="tablet>index:index:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="twitter2_poster_.png" crc="4204106744" ref="tablet>index:index"/>
-    <file name="fb2.svg" crc="4178017331" seo="true" ref="tablet>index:index">
+    <file name="twitter2_poster_.png" crc="84430277" ref="phone>index"/>
+    <file name="fb2.svg" crc="4178017331" seo="true" ref="tablet>index:index:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="fb2_poster_.png" crc="254042616" ref="tablet>index:index"/>
-    <file name="ig2.svg" crc="4267439286" seo="true" ref="tablet>index:index">
+    <file name="fb2_poster_.png" crc="510445449" ref="phone>index"/>
+    <file name="ig2.svg" crc="4267439286" seo="true" ref="tablet>index:index:phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ig2_poster_.png" crc="86434810" ref="tablet>index:index"/>
+    <file name="ig2_poster_.png" crc="159622976" ref="phone>index"/>
     <file name="rich2.svg" crc="3797180448" seo="true" ref="tablet>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="rich2_poster_.png" crc="3799306562" ref="tablet>index:index"/>
+    <file name="rich2_poster_.png" crc="4009868530" ref="tablet>index"/>
     <file name="higher2.svg" crc="335736623" seo="true" ref="tablet>index:index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="higher2_poster_.png" crc="159973313" ref="tablet>index:index"/>
-    <file name="joji2.svg" crc="250736453" seo="true" ref="tablet>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="joji2_poster_.png" crc="4273273" ref="tablet>index:index"/>
+    <file name="higher2_poster_.png" crc="13282810" ref="tablet>index"/>
+    <file name="joji2.svg" crc="250736453" seo="true" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="joji2_poster_.png" crc="252763150" ref="tablet>index"/>
     <file name="88.svg" crc="488475465" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -65,15 +79,15 @@
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="465884931" ref="tablet>index"/>
+      <file name="index.css" crc="3865909691" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="3783391636" seo="true" mt="1510075351747" redirect="true"/>
+    <file name="index.html" crc="78764359" seo="true" mt="1510075931111" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3812579801" ref="phone>index"/>
+      <file name="index.css" crc="377919732" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3974864291" seo="true" mt="1510074678285" redirect="false"/>
+    <file name="index.html" crc="448043616" seo="true" mt="1510075889155" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4056377418" seo="true" mt="1510075743333" redirect="true"/>
+  <file name="index.html" crc="4033042423" seo="true" mt="1510075743333" redirect="true"/>
 </manifest>
