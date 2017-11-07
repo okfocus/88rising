@@ -2,13 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.88rising.com/index.html</loc>
-    <lastmod>2017-11-06</lastmod>
+    <lastmod>2017-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.88rising.com/phone/index.html"/>
     <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://www.88rising.com/tablet/index.html"/>
     <image:image>
-      <image:loc>http://www.88rising.com/images/88.svg</image:loc>
+      <image:loc>http://www.88rising.com/images/asia-tour.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.88rising.com/images/88rising.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://www.88rising.com/images/youtube2.svg</image:loc>
@@ -23,9 +25,6 @@
       <image:loc>http://www.88rising.com/images/ig2.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://www.88rising.com/images/asia-tour.svg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://www.88rising.com/images/rich2.svg</image:loc>
     </image:image>
     <image:image>
@@ -35,7 +34,13 @@
       <image:loc>http://www.88rising.com/images/joji2.svg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://www.88rising.com/images/88.svg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://www.88rising.com/images/rising.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.88rising.com/images/gang.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
