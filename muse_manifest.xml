@@ -1,66 +1,87 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510082349366">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.88rising.com" resolutions="1x" timestamp="1510093650810">
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="384073483" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4042293425" mt="1510093616430" redirect="true"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="113190792" ref="index"/>
+    <file name="untitled-2.css" crc="337386164" ref="untitled-2"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3803043152" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:untitled-2"/>
+    <file name="museutils.js" crc="3803043152" ref="index:phone>index:untitled-2"/>
+    <file name="whatinput.js" crc="86476730" ref="index:phone>index:untitled-2"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:phone>index:untitled-2"/>
     <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index:phone>index:untitled-2"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:phone>index"/>
   </folder>
   <folder name="images">
-    <file name="88.svg" crc="488475465" seo="true" ref="index">
+    <file name="88.svg" crc="488475465" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="88_poster_.png" crc="52408275" ref="index"/>
-    <file name="youtube2.svg" crc="115220904" seo="true" ref="index">
+    <file name="88_poster_.png" crc="52408275" ref="phone>index"/>
+    <file name="youtube2.svg" crc="115220904" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="youtube2_poster_.png" crc="260988738" ref="index"/>
-    <file name="twitter2.svg" crc="4046557632" seo="true" ref="index">
+    <file name="youtube2_poster_.png" crc="260988738" ref="phone>index"/>
+    <file name="twitter2.svg" crc="4046557632" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="twitter2_poster_.png" crc="4204106744" ref="index"/>
-    <file name="fb2.svg" crc="4178017331" seo="true" ref="index">
+    <file name="twitter2_poster_.png" crc="4204106744" ref="phone>index"/>
+    <file name="fb2.svg" crc="4178017331" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="fb2_poster_.png" crc="254042616" ref="index"/>
-    <file name="ig2.svg" crc="4267439286" seo="true" ref="index">
+    <file name="fb2_poster_.png" crc="254042616" ref="phone>index"/>
+    <file name="ig2.svg" crc="4267439286" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ig2_poster_.png" crc="86434810" ref="index"/>
+    <file name="ig2_poster_.png" crc="86434810" ref="phone>index"/>
     <file name="rising.svg" crc="3759835068" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="rising_poster_.png" crc="427385663" ref="index"/>
-    <file name="asia-tour.svg" crc="90378404" seo="true" ref="index">
+    <file name="asia-tour.svg" crc="90378404" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="asia tour_poster_.png" crc="361702700" ref="index"/>
+    <file name="asia tour_poster_.png" crc="3878659454" ref="phone>index"/>
     <file name="gang.jpg" crc="3917269391" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="rich2.svg" crc="3797180448" seo="true" ref="index">
+    <file name="rich2.svg" crc="3797180448" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="rich2_poster_.png" crc="3799306562" ref="index"/>
-    <file name="joji2.svg" crc="250736453" seo="true" ref="index">
+    <file name="rich2_poster_.png" crc="72305197" ref="phone>index"/>
+    <file name="joji2.svg" crc="250736453" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="joji2_poster_.png" crc="4273273" ref="index"/>
-    <file name="higher2.svg" crc="335736623" seo="true" ref="index">
+    <file name="joji2_poster_.png" crc="449411608" ref="phone>index"/>
+    <file name="higher2.svg" crc="335736623" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="higher2_poster_.png" crc="159973313" ref="index"/>
-    <file name="88rising_new.svg" crc="383399925" seo="true" ref="index">
+    <file name="higher2_poster_.png" crc="3772094978" ref="phone>index"/>
+    <file name="88rising_new.svg" crc="383399925" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="88rising_new_poster_.png" crc="33807495" ref="index"/>
-    <file name="home-favicon.ico" crc="214551056" ref="index"/>
+    <file name="88rising_new_poster_.png" crc="268874849" ref="phone>index"/>
+    <file name="gang267x195.jpg" crc="225677380" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="88rising--spreading-double-happinesss-worldwide-favicon.ico" crc="4207555696" ref="index"/>
   </folder>
-  <file name="index.html" crc="3976359037" mt="1510082339759" redirect="true"/>
+  <file name="index.html" crc="530801375" mt="1510093616428" redirect="true" seo="true"/>
+  <file name="untitled-2.html" crc="4187592990" seo="true" mt="1510082406201" redirect="false"/>
 </manifest>
