@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="nojs html" lang="en-US">
+<html class="nojs html css_verticalspacer" lang="en-US">
  <head>
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -10,13 +10,13 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3831243642" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=164506256" id="pagesheet"/>
    </head>
  <body>
 
@@ -49,6 +49,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="clip_frame clearfix colelem" id="u7696"><!-- image -->
      <img class="position_content" id="u7696_img" src="images/gang.jpg?crc=3917269391" alt="" width="581" height="444"/>
     </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="561" data-content-above-spacer="752" data-content-below-spacer="462"></div>
+   <div class="clearfix grpelem" id="pu9251"><!-- column -->
     <div class="clearfix colelem" id="u9251"><!-- group -->
      <div class="clip_frame grpelem" id="u2179"><!-- svg -->
       <img class="svg" id="u2175" src="images/rich2.svg?crc=3797180448" width="185" height="37" alt="" data-mu-svgfallback="images/rich2_poster_.png?crc=3799306562"/>
@@ -60,14 +63,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <img class="svg" id="u2267" src="images/higher2.svg?crc=335736623" width="258" height="37" alt="" data-mu-svgfallback="images/higher2_poster_.png?crc=159973313"/>
      </div>
     </div>
-    <div class="clearfix colelem" id="pu9268-5"><!-- group -->
-     <div class="clearfix grpelem" id="u9268-5"><!-- content -->
-      <p><span id="u9268">​</span><span class="actAsInlineDiv normal_text" id="u9333"><!-- content --><span class="actAsDiv excludeFromNormalFlow" id="u9330"><!-- custom html --><a href="http://www.songkick.com/artists/9289569" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent">88rising tour dates</a>
+    <div class="clearfix colelem" id="u9268-5"><!-- content -->
+     <p><span id="u9268">​</span><span class="actAsInlineDiv normal_text" id="u9333"><!-- content --><span class="actAsDiv excludeFromNormalFlow" id="u9330"><!-- custom html --><a href="http://www.songkick.com/artists/9289569" class="songkick-widget" data-theme="light" data-detect-style="true" data-background-color="transparent">88rising tour dates</a>
 <script src="//widget.songkick.com/widget.js"></script></span></span><span></span></p>
-     </div>
-     <div class="clip_frame grpelem" id="u7872"><!-- svg -->
-      <img class="svg" id="u9588" src="images/88rising_new.svg?crc=383399925" width="301" height="38" alt="" data-mu-svgfallback="images/88rising_new_poster_.png?crc=4285491719"/>
-     </div>
+    </div>
+    <div class="clip_frame colelem" id="u9783"><!-- svg -->
+     <img class="svg" id="u9784" src="images/88rising_new.svg?crc=383399925" width="242" height="31" alt="" data-mu-svgfallback="images/88rising_new_poster_.png?crc=33807495"/>
     </div>
    </div>
   </div>
@@ -82,11 +83,12 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.scrolleffects"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.scrolleffects"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
 $('#u9467').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,41.4]},{"speed":[0,0],"in":[41.4,Infinity]}]);/* scroll effect */
 $('#u9671').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,67.4]},{"speed":[0,0],"in":[67.4,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
