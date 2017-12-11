@@ -1,0 +1,146 @@
+html, body {
+    height: 100vh;
+}
+body {
+    margin: 0px;
+    display: flex;
+    background: #d2ccc5;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+  height: 20px;
+  font-size: 20px;
+  margin: 0 20px -50px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+.page-wrap {
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    word-wrap: break-word;
+    top: 0;
+    left: 0;
+    margin: 50px auto;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 924px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    margin: 0 0 70px 0;
+    min-height: calc(100% - 190px);
+}
+
+.content img {
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.content h1 {
+    margin: 70px 0;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+#banner-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.bit-widget {
+    font-size: 13px;
+    font-family: 'helvetica', 'arial', sans-serif;
+    width: 100%;
+    color: #000000;
+    background-color: transparent !important;
+}
+
+.social-wrap {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+    display: none;
+}
+.menu {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .desktop-menu {
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    header {
+        height: 75px;
+        margin-top: 10px;
+    }
+    footer {
+        margin: 0 0 -75px 0;
+    }
+    .page-wrap {
+        width: calc(100% - 75px);
+        height: calc(100% - 150px);
+        margin: 75px auto;
+    }
+    .content {
+        min-height: calc(100% - 270px);
+        margin: 75px 0 140px 0;
+    }
+    .content img {
+        margin-bottom: 30px;
+    }
+    .content h1 {
+        margin: 75px 0;
+    }
+    #logo {
+        height: 57px;
+        width: 100px;
+        margin: auto;
+    }
+    }
